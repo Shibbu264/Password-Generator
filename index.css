@@ -1,0 +1,116 @@
+body {
+background: #1F2937;
+transition:margin-top 1s;
+    margin: 30px;
+    color: white;
+}
+body:hover{
+    margin-top: 40px;
+}
+
+h1{margin-top:50px;
+margin-right: auto;
+font-size: 60px
+
+}
+.txt{color:#4ADF86}
+p{margin-top:-30px;
+font-size: 20px
+}
+button{
+    transition:margin-top 1s;
+    
+    margin-top:22px;
+    padding: 12px;
+border-radius:8px;
+background:  #10B981;
+color: white
+
+
+}
+button:hover{
+margin-top: 40px;
+   
+    
+}
+h2{padding: 7px;
+    color: white
+    
+}
+#kiki1,#kiki2{
+    margin-top: 15px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 27px;
+width: 211px;
+height: 39px;
+text-align: center;
+color: #55F991;
+background: #273549;
+border-radius: 6px;
+}
+
+
+
+.insta,.linkedin,.email{
+    transition: width 1s,height 1s;
+    border-radius:12px;
+   width:30px;
+   height: 30px;
+   margin: 0px auto;
+}
+.insta:hover,.linkedin:hover,.email:hover{
+   width :34px;
+   height:34px; 
+}
+
+.dabba{display: flex;
+justify-content: space-between;}
+.card{border-radius: 25px;
+    padding: 10px;
+    width:370px;
+    margin: 0px auto ;
+    background:#273549; 
+    display: flex;
+    justify-content:center; 
+    align-content: center;
+    margin: 20px;
+}
+.specs{
+     margin:0px auto;
+    margin-top:1px;
+    font-size: large;
+    color:black;
+}
+.first,.second,.third{
+    margin-top: 7px;
+    width: cover;
+    height: 70px;
+    border-radius:100%;
+    transition:width 1s, height 1s,background 1s;
+    
+    
+}
+.first:hover,.second:hover,.third:hover{
+     width: 140px;
+    height: 140px;
+    border-radius:100%;
+    
+    
+    
+}
+.qt{display: block;
+border-radius: 100%;
+align-content: bottom;;
+    width:90px;
+height: 90px;
+transition: width 1s,height 1s;
+
+}
+.qt:hover{
+    width:140px;
+height: 140px;
+    
+    
+}
